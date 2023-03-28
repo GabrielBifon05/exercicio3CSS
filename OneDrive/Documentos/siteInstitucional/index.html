@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AquaTec</title>
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    border-bottom: 2px solid cyan;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+li, a{
+  color:orange;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+h1{
+    color: aquamarine;
+}
+
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+ul{
+  display: flex;
+  gap: 40px;
+}
+.banner{
+    background-image: url('img/bg-jelly-fish-para_outras_pags.png');
+    width: 100%;
+    height:300px;
+}
+.frase{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 30px;
+}
+span{
+    color:rgb(81, 81, 255);
+    font-weight: bold;
+}
+.paiCard{
+    font-size: 25px;
+    font-display: justify;
+    display: flex;
+    margin-left:20px;
+    margin-right:20px;
+}
+.card{
+    background-color: bisque;
+    border-radius: 9px;
+    margin: 20px;
+    padding: 20px;
+    height: auto;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+</style>
+</head>
+<body>
+    <!-- Início da Navbar -->
+    <header>
+        <div class="container">
+            <h1>AquaTec</h1>
+            <ul>
+                <li>Home</li>
+                <li><a href="">Simulador</a></li>
+                <li>|</li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Cadastro</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Início do Banner -->
+    <div class="banner">
+        <div class="frase">
+            <p>Preservando<span> hoje </span>para 
+                <br>
+            existirem<span> amanhã</span>.</p>
+        </div>
+    </div>
+    <!-- Início dos Cards -->
+    <div class="paiCard">
+        <div class="card">
+            <img src="img/planet-earth_color.png" alt="Planeta - Missão"><br> <h4>Missão</h4><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolorem vero consequuntur dolore modi incidunt cum qui, tenetur doloribus, dolores nulla placeat corrupti provident quaerat alias a veritatis voluptatem maxime.</p>
+        </div>
+        <div class="card">
+            <img src="img/lightbulb_color.png" alt="Lâmpada - Visão"> <br> <h4>Visão</h4><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolorem vero consequuntur dolore modi incidunt cum qui, tenetur doloribus, dolores nulla placeat corrupti provident quaerat alias a veritatis voluptatem maxime.</p>
+        </div>
+        <div class="card">
+            <img src="img/growth_color.png" alt="Mão - Social"> <br> <h4>Social</h4><br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, dolorem vero consequuntur dolore modi incidunt cum qui, tenetur doloribus, dolores nulla placeat corrupti provident quaerat alias a veritatis voluptatem maxime.</p>
+        </div>
+    </div>
+</body>
+</html>
